@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-contain">
+        <h1>Sign up to comment</h1>
+        <div id="point">
+            <p id="point">By clicking "Continue with Google" or "Create account", you agree to the Figma TOS and acknowledge the Privacy Policy.</p>
+        </div>
+        
+        
+        <div id="google" class="google-card">
+            <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=532352704633-6pkces9iboppp465idnovkcqtlsa8j7t.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.figma.com%2Ffinish_google_sso&response_type=code&scope=profile%20email&access_type=online&prompt=select_account&state=U68JFusmP5ZK8gwqzQy14IcVZFB%2FVe%2Be1iFJalaQ3wTv&service=lso&o2v=2&flowName=GeneralOAuthFlow" id="continue-with-google">
+                <button id="continue-with-google" class="btn-size">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-google-icon-svg-download-png-189824.png?f=webp&w=512" class="icon" />
+                    <span class="spa">Continue with Google</span>
+                </button>
+            </a>
+            <p id="o" class="or"> or </p>
+            <input type="text" class="btn-size1" placeholder="EMAIL" />
+            <div id="password" class="pass">
+                <input type="text" class="btn-size1" placeholder="PASSWORD" />
+            </div>
+            <span class="error-msg">Please provide your email.</span>
+            <button class="conwithema btn-size2" onclick="display('password')">
+                Continue with email
+            </button>
+            <h1 id="sign" class="sign"> Sign in to Figma</h1>
+            <p id="alre" class="alre">Already have an account<span><a href="#google"></a></span></p>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
